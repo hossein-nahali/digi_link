@@ -1,0 +1,56 @@
+.form-link {
+  height: 100%;
+
+  .main-form {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    transform: translateY(-75px);
+
+    .header {
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      > h2, p {
+        text-align: center;
+      }
+    }
+
+    > form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      position: relative;
+      margin: 0 auto;
+      max-width: 600px;
+
+      .input-url {
+        width: 100%;
+        text-align: left;
+      }
+
+      .btn-form {
+        position: absolute;
+        right: 10px;
+        z-index: 5;
+
+        &:before {
+          content: "";
+          background-color: #ffffff;
+          width: 45px;
+          height: 100%;
+          position: absolute;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
