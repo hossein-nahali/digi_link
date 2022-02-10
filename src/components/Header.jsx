@@ -1,5 +1,6 @@
 import React from "react";
 import {Container} from "react-bootstrap";
+import {NavLink} from 'react-router-dom'
 import '../css/Header.scss'
 
 export default function Header() {
@@ -7,11 +8,11 @@ export default function Header() {
     return (
         <header>
             <Container>
-                <a href="#" className={'logo'}>DigiLink</a>
+                <NavLink to="/" className={'logo'}>DigiLink</NavLink>
                 <nav>
                     <ul>
-                        <li><a href="#">اضافه کردن پست جدید</a></li>
-                        <li><a href="#">نمایش پست ها</a></li>
+                        <li><NavLink to="/">اضافه کردن پست جدید</NavLink></li>
+                        <li><NavLink to="/">نمایش پست ها</NavLink></li>
                     </ul>
                 </nav>
             </Container>
