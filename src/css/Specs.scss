@@ -1,0 +1,20 @@
+.specifications {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  padding: 5px 0;
+
+  &:hover {
+    background-color: #ebebeb;
+    padding-right: 8px;
+    border-radius: 5px;
+  }
+
+  > p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+    white-space: nowrap;
+  }
+}

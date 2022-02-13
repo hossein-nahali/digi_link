@@ -1,11 +1,17 @@
 import {createTheme} from '@mui/material/styles';
 
-export const theme = createTheme({
+
+export const Theme = createTheme({
     palette: {
+        dark: true,
         primary: {
             main: '#ef394e',
             light: '#757ce8',
             dark: '#002884',
+            contrastText: '#fff',
+        },
+        success: {
+            main: '#19bfd3',
             contrastText: '#fff',
         },
         secondary: {
@@ -14,5 +20,13 @@ export const theme = createTheme({
             dark: '#002884',
             contrastText: '#fff',
         },
+        common: {
+            df: '#19bfd3'
+        },
+    },
+    typography: {
+        fontFamily: [
+            '"Vazir"',
+        ].join(','),
     },
 });

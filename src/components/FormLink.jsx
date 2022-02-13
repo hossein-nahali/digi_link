@@ -4,23 +4,38 @@ import {IconButton, TextField} from "@mui/material";
 import '../css/FormLink.scss'
 import SendIcon from '@mui/icons-material/Send';
 import ValidationAddress from "../package/ValidationAddress";
-import {Navigate} from 'react-router-dom';
 import contexts from "../context/context";
+import {Navigate} from 'react-router-dom';
+import {GetData} from "../package/GetData";
+import {IdProduct} from "../package/IdProduct";
+import {IsThereProduct} from '../package/db';
 
 export default function FormLink() {
     const [url, setUrl] = useState();
     const [redirect, setRedirect] = useState(false);
     const [error, setError] = useState(false);
+    const [textError, setTextError] = useState(false);
     const context = useContext(contexts);
 
     const formHandler = (e) => {
         e.preventDefault();
-        if (ValidationAddress(url)) {
-            context.dispatch({type: 'SET_URL', url})
-            setRedirect(true)
+        const get_url = ValidationAddress(url);
+        if (get_url) {
+            if (get_url[2] === "www.digikala") {
+                GetData(IdProduct(get_url)).then(response => {
+                    if (response.status === 200) {
+                        context.dispatch({type: 'INIT_PRODUCT', data: response.data, url: get_url.input})
+                        setRedirect(true);
+                    }
+                })
+            } else {
+                setTextError('Enter the desired url from Digikala');
+                setError(true)
+            }
         } else {
             setRedirect(false)
             setError(true)
+            setTextError('invalid url')
         }
     }
 
@@ -35,11 +50,13 @@ export default function FormLink() {
                 <form onSubmit={formHandler}>
                     <TextField
                         error={error}
+                        helperText={error ? textError : null}
                         id="demo-helper-text-aligned"
                         label="Link"
                         color={"info"}
                         className={'input-url'}
                         dir={'ltr'}
+
                         onChange={e => {
                             setUrl(e.target.value);
                             setError(false);

@@ -1,0 +1,67 @@
+.checkbox {
+  position: relative;
+  height: 150px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  padding: 15px 7px 0;
+  box-shadow: 0 5px 15px #19bfd324;
+  border-radius: 10px;
+  width: calc(100% / 9);
+
+  > * {
+    user-select: none;
+  }
+
+  &.active {
+
+    .is_cocked {
+      opacity: 1;
+    }
+
+    > img {
+      border: 2px solid #19bfd3;
+    }
+  }
+
+  .is_cocked {
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    bottom: 12px;
+    right: 18px;
+    background: #19bfd3;
+    width: 23px;
+    border-radius: 5px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > svg {
+      width: 19px;
+      height: 19px;
+      fill: #fff;
+    }
+  }
+
+  > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    border: 2px solid transparent;
+    padding: 8px;
+
+    &:first-child {
+      margin-right: 0;
+    }
+
+    &:last-child {
+      margin-left: 0;
+    }
+
+    &:nth-child(9) {
+      margin-right: 0;
+    }
+  }
+}

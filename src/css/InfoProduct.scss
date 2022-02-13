@@ -1,0 +1,42 @@
+.main-product {
+  margin-top: 25px;
+
+  .desc {
+    > h1 {
+      margin: 0;
+      border-right: 2px solid #ee394e;
+      padding: 2px 7px 0 0;
+      font-size: 16px;
+    }
+  }
+
+  .images {
+    > h3 {
+      width: 100%;
+      margin-bottom: 0;
+      margin-top: 0;
+      font-size: 15px;
+      font-weight: 400;
+    }
+  }
+
+  .buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    > button {
+      margin: 0 5px;
+      transition: all .3s ease-in-out;
+
+      > span {
+        display: none;
+      }
+
+      &.active-loading-btn {
+        padding: 6px 16px 6px 40px;
+      }
+    }
+  }
+}

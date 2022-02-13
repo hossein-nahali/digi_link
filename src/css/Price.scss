@@ -1,0 +1,60 @@
+.main-price {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  padding: 5px 0;
+  min-height: 48px;
+
+  &:hover {
+    background-color: #ebebeb;
+    padding-right: 8px;
+    border-radius: 5px;
+  }
+
+  > p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+    white-space: nowrap;
+  }
+
+  div.show-price {
+    display: flex;
+    margin-right: 7px;
+    flex-direction: row-reverse;
+    align-items: start;
+
+    div.new-price {
+      padding-right: 6px;
+      border-right: 3px solid #ed394e;
+    }
+
+    div.old-price {
+      padding-left: 6px;
+      display: flex;
+
+      > p {
+        color: #74767a;
+        text-decoration: line-through;
+        font-size: 15px;
+        font-weight: 300;
+        margin: 0;
+      }
+
+      > span {
+        width: 35px;
+        height: 20px;
+        display: flex;
+        background-color: #ed394e;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        padding-top: 3px;
+        font-size: 13px;
+        border-radius: 15px;
+        margin-right: 6px;
+      }
+    }
+  }
+}

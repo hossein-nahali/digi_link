@@ -35,6 +35,11 @@
       .input-url {
         width: 100%;
         text-align: left;
+
+        > p {
+          position: absolute;
+          bottom: -25px;
+        }
       }
 
       .btn-form {

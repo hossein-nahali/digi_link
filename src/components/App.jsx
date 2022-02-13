@@ -1,21 +1,20 @@
-import React, {useReducer, useState} from "react";
+import React, {useReducer} from "react";
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import '../css/App.scss';
 import Header from "./Header";
-import {theme} from "./Theme";
 import {ThemeProvider} from "@emotion/react";
 import AppReducer from "../Reducers/AppReducer";
 import loadable from '@loadable/component';
 import Context from '../context/context'
-import AddProduct from "../routes/AddProduct";
+import {DefaultState} from "../Reducers/DefaultState";
+import {Theme} from '../package/custom/Theme'
 // import Routs
 const Home = loadable(() => import('../routes/Home'))
-const Product = loadable(() => import('../routes/AddProduct'))
+const AddProduct = loadable(() => import('../routes/AddProduct'))
+
 
 function App() {
-    const [state, dispatch] = useReducer(AppReducer, {
-        url: ''
-    })
+    const [state, dispatch] = useReducer(AppReducer, DefaultState())
 
     return (
         <BrowserRouter>
@@ -23,10 +22,9 @@ function App() {
                 state,
                 dispatch: dispatch
             }}>
-                <ThemeProvider theme={theme}>
+                <ThemeProvider theme={Theme}>
                     <div className="main">
                         <Header/>
-
                         <Routes>
                             <Route path={'/'} exact element={<Home/>}/>
                             <Route path={'/AddProduct'} element={<AddProduct/>}/>

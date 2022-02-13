@@ -1,0 +1,447 @@
+{
+  "product": [
+    {
+      "id": 6351381,
+      "title": "گوشی موبایل سامسونگ مدل A52s 5G SM-A528B/DS دو سیم‌کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+      "url": "https://www.digikala.com/product/dkp-6351381/%da%af%d9%88%d8%b4%db%8c-%d9%85%d9%88%d8%a8%d8%a7%db%8c%d9%84-%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%da%af-%d9%85%d8%af%d9%84-a52s-5g-sm-a525fds-%d8%af%d9%88-%d8%b3%db%8c%d9%85%da%a9%d8%a7%d8%b1%d8%aa-%d8%b8%d8%b1%d9%81%db%8c%d8%aa-256-%da%af%db%8c%da%af%d8%a7%d8%a8%d8%a7%db%8c%d8%aa-%d9%88-%d8%b1%d9%85-8-%da%af%db%8c%da%af%d8%a7%d8%a8%d8%a7%db%8c%d8%aa/",
+      "price": {
+        "rrp_price": 99900000,
+        "selling_price": 96990000,
+        "discount_percent": 3
+      },
+      "discount": true,
+      "is_show_default_price": false,
+      "img": [
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/8a499b9702b546cdcd882c72dab527b95924a4b5_1630926554.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 0
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/0b0559461ea2e0a9b4c7c128110715e696b7c205_1630926566.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 1
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/86627cc62dcb4c37a79cfc67802c231bb962dd9d_1630926568.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 2
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/79f25bc226a1e0183d59487748f8e1a89ab86ecc_1630926585.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 3
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/66cbe3a0fb125a3b3c1a0efa68e67020b5e3b188_1630926585.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 4
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/e620a88d3a14a6fd5c0531d98f2f965bf11366f2_1630926586.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 5
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/1d8e02e22749a2259dd61ac5aa9deb6c7e15f5eb_1630926587.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 6
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/eb4e22507959ec7be1546ba97a26553920a0ff0b_1630926588.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 7
+        }
+      ],
+      "is_show_specifications": true,
+      "specifications": [
+        [
+          {
+            "title": "ابعاد",
+            "values": [
+              "159.9x75.1x8.4 "
+            ]
+          },
+          {
+            "title": "وزن",
+            "values": [
+              "189 گرم"
+            ]
+          },
+          {
+            "title": "توضیحات سیم کارت",
+            "values": [
+              "سایز نانو (8.8 × 12.3 میلی‌متر) "
+            ]
+          },
+          {
+            "title": "ساختار بدنه",
+            "values": [
+              "پلاستیک و شیشه (محافظ گوریلا گلس روی قاب جلویی)\r\nقاب پشتی ساخته شده از پلاستیک\r\nدارای گواهینامه IP67 مقاوم در برابر گرد و غبار و آب تا عمق 1 متر و به مدت 30 دقیقه\r\nکاربرد شیار دوم برای استفاده سیم‌کارت دوم یا کارت حافظه‌ جانبی\r\n "
+            ]
+          },
+          {
+            "title": "ویژگی‌های خاص",
+            "values": [
+              "مجهز به حس‌گر اثرانگشت ",
+              "مناسب عکاسی ",
+              "مناسب عکاسی سلفی ",
+              "مقاوم در برابر آب "
+            ]
+          },
+          {
+            "title": "تعداد سیم کارت",
+            "values": [
+              "دو عدد "
+            ]
+          },
+          {
+            "title": "زمان معرفی",
+            "values": [
+              "17 آگوست 2021 "
+            ]
+          },
+          {
+            "title": "مدل",
+            "values": [
+              "(جهانی) Galaxy A52s 5G SM-A528B/DS - GLOBAL "
+            ]
+          },
+          {
+            "title": "شناسه کالا",
+            "values": [
+              "2800001106606 "
+            ]
+          },
+          {
+            "title": "تراشه",
+            "values": [
+              "Qualcomm Snapdragon 778G 5G (6 nm) Chipset "
+            ]
+          },
+          {
+            "title": "پردازنده‌ی مرکزی",
+            "values": [
+              "Single-Core Kryo 670 Prime &amp; Triple-Core Kryo 670 Gold &amp; Quad-Core Kryo 670 Silver CPU "
+            ]
+          },
+          {
+            "title": "نوع پردازنده",
+            "values": [
+              "64 بیتی "
+            ]
+          },
+          {
+            "title": "فرکانس پردازنده‌ی مرکزی",
+            "values": [
+              "2.4 , 2.2 و 1.9 گیگاهرتز"
+            ]
+          },
+          {
+            "title": "پردازنده‌ی گرافیکی",
+            "values": [
+              "Adreno 642L GPU "
+            ]
+          },
+          {
+            "title": "حافظه داخلی",
+            "values": [
+              "256 گیگابایت "
+            ]
+          },
+          {
+            "title": "مقدار RAM",
+            "values": [
+              "هشت گیگابایت "
+            ]
+          },
+          {
+            "title": "فناوری صفحه‌نمایش",
+            "values": [
+              "Super AMOLED "
+            ]
+          },
+          {
+            "title": "بازه‌ی اندازه صفحه نمایش",
+            "values": [
+              "6.0 اینچ و بزرگتر "
+            ]
+          },
+          {
+            "title": "اندازه",
+            "values": [
+              "6.5 اینچ"
+            ]
+          },
+          {
+            "title": "رزولوشن",
+            "values": [
+              "2400 × 1080 پیکسل "
+            ]
+          },
+          {
+            "title": "تراکم پیکسلی",
+            "values": [
+              "405 پیکسل بر اینچ"
+            ]
+          },
+          {
+            "title": "نسبت صفحه‌نمایش به بدنه",
+            "values": [
+              "84.9 "
+            ]
+          },
+          {
+            "title": "نسبت تصویر",
+            "values": [
+              "20:9  "
+            ]
+          },
+          {
+            "title": "محافظت",
+            "values": [
+              "Corning Gorilla Glass 5 "
+            ]
+          },
+          {
+            "title": "سایر قابلیت‌ها",
+            "values": [
+              "120Hz, 800 nits\r\nدارای رابط کاربری One UI 3.1\r\nANT+ "
+            ]
+          },
+          {
+            "title": "شبکه های ارتباطی",
+            "values": [
+              "5G ",
+              "4G ",
+              "3G ",
+              "2G "
+            ]
+          },
+          {
+            "title": "شبکه 2G",
+            "values": [
+              "GSM 850 / 900 / 1800 / 1900 - SIM 1 &amp; SIM 2 (dual-SIM)\r\nبرای هر دو سیم کارت "
+            ]
+          },
+          {
+            "title": "شبکه 3G",
+            "values": [
+              "HSDPA 850 / 900 / 1900 / 2100\r\nHSPA با سرعت دانلود 42.2 مگابیت بر ثانیه و آپلود 5.76 مگابیت بر ثانیه\r\n "
+            ]
+          },
+          {
+            "title": "شبکه 4G",
+            "values": [
+              "1, 2, 3, 4, 5, 7, 8, 12, 17, 20, 26, 28, 32, 38, 40, 41, 66\r\n "
+            ]
+          },
+          {
+            "title": "شبکه 5G",
+            "values": [
+              "1, 3, 5, 7, 8, 20, 28, 38, 40, 41, 66, 78 SA/NSA/Sub6\r\n "
+            ]
+          },
+          {
+            "title": "فناوری‌های ارتباطی",
+            "values": [
+              "GPRS ",
+              "Wi-Fi ",
+              "بلوتوث ",
+              "OTG ",
+              "QZSS "
+            ]
+          },
+          {
+            "title": "Wi-Fi",
+            "values": [
+              "Wi-Fi 802.11 a/b/g/n/ac/6\r\ndual-band\r\nWi-Fi Direct\r\nhotspot "
+            ]
+          },
+          {
+            "title": "بلوتوث",
+            "values": [
+              "A2DP, LE "
+            ]
+          },
+          {
+            "title": "فن‌آوری موبایل",
+            "values": [
+              "A-GPS ",
+              "GLONASS ",
+              "GALILEO ",
+              "BDS "
+            ]
+          },
+          {
+            "title": "درگاه‌های ارتباطی",
+            "values": [
+              "USB Type-C 2.0 "
+            ]
+          },
+          {
+            "title": "نسخه بلوتوث",
+            "values": [
+              "نسخه 5.0 "
+            ]
+          },
+          {
+            "title": "دوربین‌های پشت گوشی",
+            "values": [
+              "4 ماژول دوربین "
+            ]
+          },
+          {
+            "title": "رزولوشن عکس",
+            "values": [
+              "64 مگاپیکسل "
+            ]
+          },
+          {
+            "title": "فلش",
+            "values": [
+              "LED "
+            ]
+          },
+          {
+            "title": "قابلیت‌های دوربین",
+            "values": [
+              "دارای چهار سنسور دوربین | دوربین‌هایی با رزولوشن 64، 12، 5 و 5 مگاپیکسل\r\n- سنسور اول از نوع عریض (Wide)، با رزولوشن 64 مگاپیکسل، دریچه‌ی دیافراگم f/1.8، فاصله کانونی لنز 26 میلی‌متر (Focal Length 26 mm)، اندازه سنسور 1/1.7 اینچ (Sensor Size 1/1.7 Inch)، ثبت تصاویر با پیکسل‎هایی به سایز 0.8 میکرومتر (0.8µm Pixel Size)، مجهز به فناوری فوکوس اتوماتیک از نوع PDAF و سیستم لرزشگیر اپتیکال تصویر OIS\r\n- سنسور دوم از نوع از نوع فوق‌عریض (Ultrawide) با رزولوشن 12 مگاپیکسل، دریچه‌ی دیافراگم f/2.2، زاویه دید 123 درجه، ثبت تصاویر با پیکسل‎هایی به سایز 1.12 میکرومتر (1.12µm Pixel Size) \r\n- سنسور سوم ماکرو (macro) با رزولوشن 5 مگاپیکسل، دریچه‌ی دیافراگم f/2.4 \r\n- سنسور چهارم برای ایجاد عمق تصویر (Depth) با رزولوشن 5 مگاپیکسل و دریچه‌ی دیافراگم f/2.4 \r\nقابلیت عکاسی پانوراما (Panorama)\r\nقابلیت عکاسی HDR "
+            ]
+          },
+          {
+            "title": "فیلمبرداری",
+            "values": [
+              "رزولوشن 4K و سرعت 30 فریم بر ثانیه (4K@30FPS)\r\nرزولوشن 1080 × 1920 و سرعت 60 فریم بر ثانیه (1080p@60FPS)\r\nرزولوشن 1080 × 1920 و سرعت 30 فریم بر ثانیه (1080p@30FPS)\r\nتثبیت کننده الکترونیکی تصویر مبتنی بر ژیروسکوپ (gyro-EIS)\r\n "
+            ]
+          },
+          {
+            "title": "دوربین سلفی",
+            "values": [
+              "- سنسور از نوع عریض (Wide)، با رزولوشن 32 مگاپیکسل، دریچه‌ی دیافراگم f/2.2، فاصله کانونی لنز 26 میلی‌متر (Focal Length 26 mm)، اندازه سنسور 1/2.8 اینچ، ثبت تصاویر با پیکسل‎هایی به سایز 0.8 میکرومتر (0.8µm Pixel Size)\r\nقابلیت عکاسی HDR خودکار\r\nفیلمبرداری\r\n- رزولوشن 4K و سرعت 30 فریم بر ثانیه (4K@30FPS)\r\n- رزولوشن 1080 و سرعت 30 فریم بر ثانیه (1080p@30FPS)\r\n "
+            ]
+          },
+          {
+            "title": "سیستم عامل",
+            "values": [
+              "Android "
+            ]
+          },
+          {
+            "title": "نسخه سیستم عامل",
+            "values": [
+              "Android 11 "
+            ]
+          },
+          {
+            "title": "حس‌گرها",
+            "values": [
+              "قطب‌نما (Compass) ",
+              "شتاب‌سنج (Accelerometer) ",
+              "مجاورت (Proximity) ",
+              "ژیروسکوپ (Gyro) ",
+              "اثرانگشت زیر صفحه نمایش (FingerPrint|Under-Display) "
+            ]
+          },
+          {
+            "title": "مشخصات باتری",
+            "values": [
+              "باتری لیتیوم پولیمر با ظرفیت 4500 میلی‌آمپرساعت\r\nقابلیت شارژ سریع با توان 25 وات "
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "id": 4161760,
+      "title": "کاور  مدل sili9800 مناسب برای گوشی موبایل سامسونگ Galaxy A12",
+      "url": "https://www.digikala.com/product/dkp-4161760/%da%a9%d8%a7%d9%88%d8%b1-%d9%85%d8%af%d9%84-sili9800-%d9%85%d9%86%d8%a7%d8%b3%d8%a8-%d8%a8%d8%b1%d8%a7%db%8c-%da%af%d9%88%d8%b4%db%8c-%d9%85%d9%88%d8%a8%d8%a7%db%8c%d9%84-%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%da%af-galaxy-a12/",
+      "price": {
+        "rrp_price": 270000,
+        "selling_price": 270000,
+        "discount_percent": 0
+      },
+      "discount": false,
+      "is_show_default_price": false,
+      "img": [
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/45fec58f9c1b128973d0a140bdb038ac9e6dfc1a_1609763849.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 0
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/fcab157e56fe0b907a4ecf176aa290d3e2f481d9_1609763766.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 1
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/6f7ea8cbe5639532823d2796162d1989d28ca7cb_1609763757.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 2
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/a04462bca3fde743f8d9d255fe1538a9f73ba1fa_1609763757.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 3
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/ea3b70172e8e131f7c57af4442ac6c820a366b0a_1609763814.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 4
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/2a64c592eae70eb02a1ccac020d8f09b16a8067f_1609763759.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 5
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/ddd71dc17d11bf4718c18f02db22e57a799919ab_1609763753.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 6
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/33f6d48d7ccef927ba75728ee589e5c8f3cfa7bb_1609763762.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 7
+        }
+      ],
+      "is_show_specifications": true,
+      "specifications": [
+        [
+          {
+            "title": "جنس",
+            "values": [
+              "سیلیکون ",
+              "پارچه "
+            ]
+          },
+          {
+            "title": "ساختار",
+            "values": [
+              "مات "
+            ]
+          },
+          {
+            "title": "سطح پوشش",
+            "values": [
+              "قاب پشتی ",
+              "لبه بالایی ",
+              "لبه پایینی ",
+              "لبه چپ ",
+              "لبه راست ",
+              "حفاظت از دکمه‌ها "
+            ]
+          },
+          {
+            "title": "قابلیت‌های کیف و کاور",
+            "values": [
+              "مقاوم در برابر ضربه ",
+              "انعطاف پذیر ",
+              "دارای پوشش نرم داخلی "
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}
