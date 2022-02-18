@@ -1,7 +1,12 @@
 .form-link {
-  height: 100vh;
+  height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
   @media (max-width: 768px) {
-    height: 65vh;
+    height: calc(100vh - 160px);
   }
 
   .main-form {
@@ -11,18 +16,30 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    transform: translateY(-75px);
+    width: 100%;
+    margin-bottom: 70px;
 
     @media (max-width: 768px) {
-      transform: translateY(75px);
+      transform: inherit;
+      margin-bottom: inherit;
     }
 
     .header {
-      margin-bottom: 25px;
+      margin-bottom: 10px;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
+
+      > h2 {
+        font-size: 24px;
+        font-weight: 400;
+      }
+
+      > p {
+        font-size: 14px;
+        font-weight: 400;
+      }
 
       > h2, p {
         text-align: center;

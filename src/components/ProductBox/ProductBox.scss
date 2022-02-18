@@ -27,16 +27,21 @@
       margin-top: 15px;
 
       .product-title {
-        font-size: 14px;
-        font-weight: 300;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        line-clamp: 2;
-        -webkit-box-orient: vertical;
-        line-height: 23px;
-        min-height: 46px;
+        > a {
+          font-size: 14px;
+          font-weight: 300;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          outline: none;
+          -webkit-line-clamp: 2;
+          line-clamp: 2;
+          -webkit-box-orient: vertical;
+          line-height: 23px;
+          min-height: 46px;
+          color: #282727;
+          padding: 0;
+        }
       }
 
       .product-price {
