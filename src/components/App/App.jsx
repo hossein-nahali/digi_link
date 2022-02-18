@@ -13,6 +13,7 @@ import {Theme} from '../../package/custom/Theme'
 const Home = loadable(() => import('../../routes/Home'))
 const AddProduct = loadable(() => import('../../routes/AddProduct'))
 const ProductList = loadable(() => import('../../routes/ProductList'))
+const SingleProduct = loadable(() => import('../../routes/SingleProduct'))
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
                         <Route path={'/'} exact element={<Home/>}/>
                         <Route path={'/AddProduct'} element={<AddProduct/>}/>
                         <Route path={'/ProductList'} element={<ProductList/>}/>
+                        <Route path={'/SingleProduct/:id'} element={<SingleProduct/>}/>
                     </Routes>
                 </ThemeProvider>
             </Context.Provider>

@@ -1,8 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import {Box, Button, Container, Grid} from "@mui/material";
-import {getData, parseLinkHeader} from "../../package/db";
+import {Container, Grid} from "@mui/material";
+import {getData} from "../../package/db";
 import ProductBox from "../ProductBox";
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import "./Products.scss";
 
 export default function Products() {
@@ -25,7 +24,6 @@ export default function Products() {
                     logErr: r
                 });
             })
-
     }, [])
 
     return (
