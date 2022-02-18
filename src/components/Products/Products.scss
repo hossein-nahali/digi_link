@@ -1,0 +1,11 @@
+.btn-load-more {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  > button {
+    font-size: 15px;
+    font-weight: 300;
+  }
+}

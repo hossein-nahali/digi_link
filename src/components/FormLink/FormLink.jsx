@@ -1,14 +1,12 @@
 import React, {useContext, useState} from "react";
-import {Container} from "react-bootstrap";
-import {IconButton, TextField} from "@mui/material";
-import '../css/FormLink.scss'
+import {IconButton, TextField, Container} from "@mui/material";
+import './FormLink.scss'
 import SendIcon from '@mui/icons-material/Send';
-import ValidationAddress from "../package/ValidationAddress";
-import contexts from "../context/context";
+import ValidationAddress from "../../package/ValidationAddress";
+import contexts from "../../context/context";
 import {Navigate} from 'react-router-dom';
-import {GetData} from "../package/GetData";
-import {IdProduct} from "../package/IdProduct";
-import {IsThereProduct} from '../package/db';
+import {GetData} from "../../package/GetData";
+import {IdProduct} from "../../package/IdProduct";
 
 export default function FormLink() {
     const [url, setUrl] = useState();
@@ -26,6 +24,7 @@ export default function FormLink() {
                     if (response.status === 200) {
                         context.dispatch({type: 'INIT_PRODUCT', data: response.data, url: get_url.input})
                         setRedirect(true);
+                        console.log(response);
                     }
                 })
             } else {
@@ -37,6 +36,11 @@ export default function FormLink() {
             setError(true)
             setTextError('invalid url')
         }
+    }
+
+    const ChangeHandler = (e) => {
+        setUrl(e.target.value);
+        setError(false);
     }
 
     return (
@@ -56,15 +60,12 @@ export default function FormLink() {
                         color={"info"}
                         className={'input-url'}
                         dir={'ltr'}
-
-                        onChange={e => {
-                            setUrl(e.target.value);
-                            setError(false);
-                        }}
+                        onChange={ChangeHandler}
                     />
 
-                    <IconButton color="error" type={'submit'}
-                                className={'btn-form'}><SendIcon/></IconButton>
+                    <IconButton color="error" type={'submit'} className={'btn-form'}>
+                        <SendIcon/>
+                    </IconButton>
                 </form>
             </div>
         </Container>

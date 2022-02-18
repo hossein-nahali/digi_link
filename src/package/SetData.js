@@ -16,6 +16,7 @@ export const SetData = (data, url) => {
         img: images.list.map((url, index) => {
             return {src: url.url[0], is_show: true, id: index}
         }),
+        default_img: images.main.url[0] ? images.main.url[0] : '',
         is_show_specifications: true,
         specifications: specifications.map(specifications => specifications.attributes)
     }

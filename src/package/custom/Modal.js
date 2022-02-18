@@ -1,9 +1,9 @@
 import {Box, Button, Modal, Typography} from "@mui/material";
 import Backdrop from "@mui/material/Backdrop";
 import React from "react";
-import {Navigate} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
-export const CModal = ({closeModal, modal, redirectHome, text, status = ''}) => {
+export const CModal = ({closeModal, modal, redirect, text, status = ''}) => {
 
     return (
         <Modal
@@ -51,11 +51,16 @@ export const CModal = ({closeModal, modal, redirectHome, text, status = ''}) => 
                         justifyContent: 'center',
                         alignItems: 'center',
                     }}>
-                        <Button variant="contained" color="success" sx={{marginLeft: '15px'}}>
-                            نمایش محصولات
+                        <Button variant="contained" color="success" onClick={redirect.redirectProductList}
+                                sx={{marginLeft: '15px'}}>
+                            <NavLink to='/ProductList' style={{
+                                color: 'inherit',
+                            }}> نمایش محصولات</NavLink>
                         </Button>
-                        <Button variant="outlined" color="error" onClick={redirectHome} status={'error'}>
-                            افزودن محصول جدید
+                        <Button variant="outlined" color="error" onClick={redirect.redirectHome} status={'error'}>
+                            <NavLink to='/' style={{
+                                color: 'inherit',
+                            }}>افزودن محصول جدید</NavLink>
                         </Button>
                     </Box>
                 </Box>

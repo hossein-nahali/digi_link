@@ -1,7 +1,7 @@
 import React, {useContext, useState} from 'react'
-import '../css/Image.scss';
+import './Image.scss';
 import DoneIcon from '@mui/icons-material/Done';
-import contexts from "../context/context";
+import contexts from "../../context/context";
 
 export default function Image({info_img, handler}) {
     const [checkbox, setCheckbox] = useState(false);

@@ -6,7 +6,26 @@
   padding: 15px 7px 0;
   box-shadow: 0 5px 15px #19bfd324;
   border-radius: 10px;
-  width: calc(100% / 9);
+  width: calc(100% / 8);
+
+  @media (max-width: 1024px) {
+    width: calc(100% / 7);
+  }
+  @media (max-width: 978px) {
+    width: calc(100% / 6);
+  }
+  @media (max-width: 900px) {
+    width: calc(100% / 5);
+  }
+  @media (max-width: 767px) {
+    width: calc(100% / 4);
+  }
+  @media (max-width: 505px) {
+    width: calc(100% / 3);
+  }
+  @media (max-width: 390px) {
+    width: calc(100% / 2);
+  }
 
   > * {
     user-select: none;

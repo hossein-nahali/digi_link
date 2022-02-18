@@ -1,9 +1,9 @@
 import React, {useContext, useState} from "react";
-import '../css/Price.scss'
+import './Price.scss'
 import {Switch} from "@mui/material";
-import {LightTooltip} from "../package/custom/Tooltip";
-import context from "../context/context";
-import contexts from "../context/context";
+import {LightTooltip} from "../../package/custom/Tooltip";
+import contexts from "../../context/context";
+import {numberWithCommas} from "../../package/NumberWithCommas";
 
 
 export default function Price({is_discount, price}) {
@@ -14,11 +14,6 @@ export default function Price({is_discount, price}) {
         setSwitchmode(!switchmode)
         context.dispatch({type: 'CHANGE_PRICE', is_discount_price: switchmode})
     }
-
-    function numberWithCommas(x) {
-        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    }
-
 
     return (
         <div className="main-price">

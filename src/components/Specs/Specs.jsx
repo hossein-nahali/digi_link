@@ -1,8 +1,8 @@
 import React, {useContext, useState} from "react";
-import '../css/Specs.scss'
-import {LightTooltip} from "../package/custom/Tooltip";
+import './Specs.scss'
+import {LightTooltip} from "../../package/custom/Tooltip";
 import {Switch} from "@mui/material";
-import contexts from "../context/context";
+import contexts from "../../context/context";
 
 export default function Specs() {
     const [switchmode, setSwitchmode] = useState(false)

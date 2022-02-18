@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import InfoProduct from "../components/InfoProduct";
+import InfoProduct from "../components/InfoProduct/InfoProduct";
 import contexts from "../context/context";
 import {Navigate} from 'react-router-dom';
 

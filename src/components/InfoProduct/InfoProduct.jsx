@@ -1,16 +1,16 @@
 import React, {useContext, useState} from "react";
-import contexts from "../context/context";
-import {Container} from "react-bootstrap";
-import '../css/InfoProduct.scss'
-import Image from "./Image";
-import Price from "./Price";
-import Specs from "./Specs";
+import contexts from "../../context/context";
+import {Container} from "@mui/material";
+import './InfoProduct.scss'
+import Image from "../Image";
+import Price from "../Price";
+import Specs from "../Specs";
 import LoadingButton from '@mui/lab/LoadingButton';
 import {Button} from "@mui/material";
 import {Navigate} from "react-router-dom";
-import {CreateProduct} from "../package/db";
+import {CreateProduct} from "../../package/db";
 import SaveIcon from '@mui/icons-material/Add';
-import {CModal} from "../package/custom/Modal";
+import {CModal} from "../../package/custom/Modal";
 
 export default function InfoProduct() {
     const context = useContext(contexts);
@@ -45,6 +45,10 @@ export default function InfoProduct() {
         return <Navigate to='/'/>
     }
 
+    function redirectProductList() {
+        context.dispatch({type: 'RESET_VALUES'})
+    }
+
     return (
         <Container>
             <div className="main-product">
@@ -70,7 +74,8 @@ export default function InfoProduct() {
                     <Button variant="outlined" color="error" onClick={redirectHome} status={'error'}>
                         انصراف
                     </Button>
-                    <CModal modal={modal} closeModal={closeModal} redirectHome={redirectHome} status={status}
+                    <CModal modal={modal} closeModal={closeModal} redirect={{redirectHome, redirectProductList}}
+                            status={status}
                             text={textModal}/>
                 </div>
             </div>
