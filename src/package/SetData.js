@@ -1,11 +1,23 @@
 export const SetData = (data, url) => {
 
-    const {default_variant, images, title_fa, id, specifications} = data.product
+    const {
+        default_variant,
+        images,
+        title_fa,
+        title_en,
+        id,
+        specifications,
+        review,
+        data_layer,
+        comments_count,
+        questions_count,
+    } = data.product
 
     return {
-        id: id,
-        title: title_fa,
-        url: url,
+        id,
+        title_fa,
+        title_en,
+        url,
         price: {
             rrp_price: default_variant.price.rrp_price,
             selling_price: default_variant.price.selling_price,
@@ -18,6 +30,10 @@ export const SetData = (data, url) => {
         }),
         default_img: images.main.url[0] ? images.main.url[0] : '',
         is_show_specifications: true,
-        specifications: specifications.map(specifications => specifications.attributes)
+        specifications: specifications.map(specifications => specifications.attributes),
+        review: review.attributes,
+        data_layer,
+        comments_count,
+        questions_count,
     }
 }

@@ -1,0 +1,43 @@
+.review {
+  margin-top: 15px;
+
+  h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    > li {
+      display: flex;
+      margin-right: 3px;
+
+      &:before {
+        content: "\2022";
+        color: #a1a3a8;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -5px;
+      }
+
+      p:first-child {
+        font-size: 14px;
+        font-weight: 300;
+        color: #81858b;
+        margin: 0;
+      }
+
+      p:last-child {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 500;
+        margin-right: 3px;
+      }
+    }
+  }
+}

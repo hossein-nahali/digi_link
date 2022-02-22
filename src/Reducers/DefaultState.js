@@ -3,7 +3,8 @@ export const DefaultState = () => {
     return {
         infoProduct: {
             id: '',
-            title: '',
+            title_fa: '',
+            title_en: '',
             url: '',
             price: {
                 rrp_price: '',

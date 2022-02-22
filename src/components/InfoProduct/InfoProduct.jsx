@@ -53,7 +53,7 @@ export default function InfoProduct() {
         <Container>
             <div className="main-product">
                 <div className="desc">
-                    <h1>{infoProduct.title}</h1>
+                    <h1>{infoProduct.title_fa}</h1>
                     <Price is_discount={infoProduct.discount} price={infoProduct.price}/>
                     <Specs/>
                 </div>

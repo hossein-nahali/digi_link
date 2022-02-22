@@ -1,0 +1,25 @@
+.info-box {
+
+  h1 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .title-en {
+    margin-top: 10px;
+
+    > P {
+      font-size: 14px;
+      font-weight: 300;
+      color: #c0c2c5;
+      position: relative;
+    }
+
+    > span {
+      height: 1px;
+      background-color: #e0e0e2;
+      flex-grow: 1;
+      margin-right: 5px;
+    }
+  }
+}
