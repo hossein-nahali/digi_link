@@ -1,12 +1,56 @@
 .info-box {
 
   h1 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
+    line-height: 28px;
+  }
+
+  .title-fa {
+    display: flex;
+    align-items: center;
+
+    .brand-img {
+      margin-left: 12px;
+
+      > img {
+        object-fit: contain;
+        width: 52px;
+        height: 52px;
+        border-radius: 8px;
+      }
+    }
+
+    .content {
+
+      .direction {
+        display: flex;
+
+        p {
+          font-size: 14px;
+          font-weight: 500;
+          color: #19bfd3;
+          margin-bottom: 5px;
+
+          &:after {
+            content: '/';
+            font-size: 12px;
+            color: #c0c2c5;
+            margin: 0 7px;
+          }
+
+          &:last-child {
+            &:after {
+              display: none;
+            }
+          }
+        }
+      }
+    }
   }
 
   .title-en {
-    margin-top: 10px;
+    margin-top: 5px;
 
     > P {
       font-size: 14px;

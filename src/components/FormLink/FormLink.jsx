@@ -18,13 +18,13 @@ export default function FormLink() {
     const formHandler = (e) => {
         e.preventDefault();
         const get_url = ValidationAddress(url);
+
         if (get_url) {
             if (get_url[2] === "www.digikala") {
                 GetData(IdProduct(get_url)).then(response => {
                     if (response.status === 200) {
                         context.dispatch({type: 'INIT_PRODUCT', data: response.data, url: get_url.input})
                         setRedirect(true);
-                        console.log(response);
                     }
                 })
             } else {

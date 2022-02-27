@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {Container, Grid} from "@mui/material";
 import {getData} from "../../package/db";
-import ProductBox from "../ProductBox";
+import ProductBox from "./ProductBox";
 import "./Products.scss";
 
 export default function Products() {
@@ -31,14 +31,12 @@ export default function Products() {
             {
                 !loading
                     ?
-                    <>
-                        <Grid container spacing={2}>
-                            {
-                                product.map(obg => <Grid item className={'parent-grid'} xs={12} lg={3} md={3} sm={6}
-                                                         key={obg.id}><ProductBox Obj_P={obg} key={obg.id}/></Grid>)
-                            }
-                        </Grid>
-                    </>
+                    <Grid container spacing={2}>
+                        {
+                            product.map(obg => <Grid item className={'parent-grid'} xs={12} lg={3} md={3} sm={6}
+                                                     key={obg.id}><ProductBox Obj_P={obg} key={obg.id}/></Grid>)
+                        }
+                    </Grid>
                     : <p>loading ...</p>
             }
         </Container>

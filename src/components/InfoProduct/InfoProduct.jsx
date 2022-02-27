@@ -28,7 +28,6 @@ export default function InfoProduct() {
             .then(r => {
                 setLoading(false);
                 setModal(true);
-                console.log(r);
                 if (r.status === 201) {
                     setStatus('success');
                     setTextModal('محصول با موفقیت اضافه شد');

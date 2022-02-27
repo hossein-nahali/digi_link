@@ -5,7 +5,6 @@ import './ProductBox.scss'
 import {Link} from "react-router-dom";
 
 export default function ProductBox({Obj_P}) {
-    console.log(Obj_P);
     return (
         <Box className={'product-box'}>
             <Box className={'product-img'}>

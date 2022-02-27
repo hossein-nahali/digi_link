@@ -1,5 +1,5 @@
 export const SetData = (data, url) => {
-
+    console.log(data);
     const {
         default_variant,
         images,
@@ -11,12 +11,21 @@ export const SetData = (data, url) => {
         data_layer,
         comments_count,
         questions_count,
+        brand,
     } = data.product
 
+    const {
+        brand_breadcrumb
+    } = data.seo;
+
+    let imager = images.list.map((url, index) => {
+        return {src: url.url[0], is_show: true, id: index}
+    })
+
     return {
-        id,
-        title_fa,
-        title_en,
+        id: id,
+        title_fa: title_fa,
+        title_en: title_en,
         url,
         price: {
             rrp_price: default_variant.price.rrp_price,
@@ -25,15 +34,18 @@ export const SetData = (data, url) => {
         },
         discount: default_variant.price.discount_percent > 0,
         is_show_default_price: default_variant.price.discount_percent < 0,
-        img: images.list.map((url, index) => {
-            return {src: url.url[0], is_show: true, id: index}
-        }),
+        img: imager,
         default_img: images.main.url[0] ? images.main.url[0] : '',
         is_show_specifications: true,
         specifications: specifications.map(specifications => specifications.attributes),
         review: review.attributes,
-        data_layer,
-        comments_count,
-        questions_count,
+        data_layer: {
+            count_star: data_layer.dimension9,
+            total_comments: data_layer.metric6,
+            comments_count,
+            questions_count,
+        },
+        brand_breadcrumb: brand_breadcrumb,
+        brand_img: brand.logo.url,
     }
 }

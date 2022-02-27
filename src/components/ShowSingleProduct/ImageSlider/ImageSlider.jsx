@@ -7,9 +7,11 @@ export default function ImageSlider({imageList}) {
 
     let test = imageList.filter(img => {
         return img.is_show;
-    }).map((obj) => <SwiperSlide key={obj.id}><img
-        src={obj.src} alt="img"/>
-    </SwiperSlide>)
+    }).map((obj) => {
+        return <SwiperSlide key={obj.id}>
+            <img src={obj.src} alt="img" className={'w-100'}/>
+        </SwiperSlide>
+    })
 
 
     return (

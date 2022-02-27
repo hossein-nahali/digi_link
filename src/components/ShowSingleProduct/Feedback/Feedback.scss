@@ -1,0 +1,54 @@
+.feedback {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 15px;
+
+  div {
+    display: flex;
+    align-items: center;
+
+    p {
+      color: #19bfd3;
+      font-size: 13px;
+      font-weight: 400;
+      margin: 0;
+    }
+
+    &:after {
+      content: "";
+      width: 3px;
+      height: 3px;
+      margin: 0 15px;
+      background: #d7d7d7;
+    }
+
+    &:last-child {
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  .star {
+
+    img {
+      width: 16px;
+      height: 16px;
+    }
+
+    p {
+      margin: 0;
+      color: #282727;
+    }
+
+    .star {
+      font-size: 12px;
+    }
+
+    .comments-count {
+      font-size: 10px;
+      margin-right: 4px;
+      color: #c0c2c5;
+    }
+  }
+}

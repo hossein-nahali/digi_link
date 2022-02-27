@@ -1,0 +1,49 @@
+.parent-grid {
+  @media (max-width: 600px) {
+    max-width: 100%;
+  }
+
+  .product-box {
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 12px #0000001f;
+    flex-direction: column;
+    padding: 15px;
+
+    .product-img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 170px;
+        height: auto;
+      }
+    }
+
+    .product-content {
+      width: 100%;
+      margin-top: 15px;
+
+      .product-title {
+        a {
+          font-size: 14px;
+          font-weight: 300;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          outline: none;
+          -webkit-line-clamp: 2;
+          line-clamp: 2;
+          -webkit-box-orient: vertical;
+          line-height: 23px;
+          min-height: 46px;
+          color: #282727;
+          padding: 0;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}

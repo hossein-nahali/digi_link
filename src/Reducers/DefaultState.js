@@ -15,7 +15,13 @@ export const DefaultState = () => {
             is_show_default_price: '',
             img: [],
             default_img: '',
-            specifications: []
+            is_show_specifications: '',
+            specifications: [],
+            review: [],
+            data_layer: {},
+            comments_count: 0,
+            questions_count: 0,
+            brand_breadcrumb: [],
         }
     }
 }

@@ -1,0 +1,51 @@
+.product-price {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  position: relative;
+  width: fit-content;
+
+  &:after {
+    content: "ریال";
+    font-size: 11px;
+    font-weight: 500;
+    color: #7b807bdd;
+    position: absolute;
+    top: -10px;
+    left: -21px;
+  }
+
+  .old-price {
+    color: #848484;
+    text-decoration: line-through;
+    margin-left: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:after {
+      content: "";
+      width: 2px;
+      height: 18px;
+      border-radius: 5px;
+      background-color: #ee394e;
+      position: absolute;
+      left: -8px;
+    }
+  }
+
+  .discount-price {
+    width: 35px;
+    height: 20px;
+    display: flex;
+    background-color: #ed394e;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3px;
+    font-size: 13px;
+    border-radius: 15px;
+    margin-right: 6px;
+  }
+}
