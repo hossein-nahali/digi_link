@@ -4,7 +4,6 @@ import starimg from './img/star-yellow.png'
 import './Feedback.scss'
 
 export default function Feedback({data_layer}) {
-    console.log(data_layer && data_layer.count_star);
     return (
         <Box className={'feedback'}>
             <Box className={'star'}>

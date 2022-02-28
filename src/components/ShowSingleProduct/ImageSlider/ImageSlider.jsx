@@ -5,7 +5,7 @@ import 'swiper/swiper.scss'
 
 export default function ImageSlider({imageList}) {
 
-    let test = imageList.filter(img => {
+    let images = imageList.filter(img => {
         return img.is_show;
     }).map((obj) => {
         return <SwiperSlide key={obj.id}>
@@ -19,7 +19,7 @@ export default function ImageSlider({imageList}) {
             dir="rtl"
             spaceBetween={0}
             slidesPerView={1}>
-            {test}
+            {images}
         </Swiper>
     )
 }

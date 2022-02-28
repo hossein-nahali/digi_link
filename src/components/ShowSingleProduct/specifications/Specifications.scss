@@ -1,0 +1,53 @@
+.specifications {
+  border-top: 4px solid #f0f0f1;
+  width: 100%;
+  margin-top: 25px;
+  padding: 25px 0;
+
+  h2 {
+    font-size: 17px;
+    font-weight: 500;
+    border-bottom: 2px solid #ee394e;
+    width: fit-content;
+    margin-bottom: 25px;
+    padding: 15px 0;
+  }
+
+  .table {
+    p {
+      margin: 0;
+    }
+
+    .parent-table {
+      display: flex;
+      border: none;
+
+      .title {
+        min-width: 200px;
+        display: flex;
+        align-items: center;
+        color: #81858b;
+        font-size: 14px;
+        font-weight: 400;
+
+        @media (max-width: 992px) {
+          min-width: 104px;
+        }
+      }
+
+      .attrs {
+        border-bottom: 1px solid #f0f0f1;
+        flex-grow: 1;
+        padding: 12px 0;
+
+        p {
+          color: #3e3e3e;
+          font-size: 14px;
+          font-weight: 400;
+          padding: 0;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}

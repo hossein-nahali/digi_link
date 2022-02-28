@@ -3,6 +3,7 @@ import {Container, Grid} from "@mui/material";
 import {getData} from "../../package/db";
 import ProductBox from "./ProductBox";
 import "./Products.scss";
+import ListProduct from "../../package/loading/ListProductLoading";
 
 export default function Products() {
     const [product, setProduct] = useState({});
@@ -37,7 +38,7 @@ export default function Products() {
                                                      key={obg.id}><ProductBox Obj_P={obg} key={obg.id}/></Grid>)
                         }
                     </Grid>
-                    : <p>loading ...</p>
+                    : <ListProduct/>
             }
         </Container>
     )

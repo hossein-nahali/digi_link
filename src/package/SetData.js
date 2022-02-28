@@ -1,5 +1,4 @@
 export const SetData = (data, url) => {
-    console.log(data);
     const {
         default_variant,
         images,
@@ -37,7 +36,7 @@ export const SetData = (data, url) => {
         img: imager,
         default_img: images.main.url[0] ? images.main.url[0] : '',
         is_show_specifications: true,
-        specifications: specifications.map(specifications => specifications.attributes),
+        specifications,
         review: review.attributes,
         data_layer: {
             count_star: data_layer.dimension9,

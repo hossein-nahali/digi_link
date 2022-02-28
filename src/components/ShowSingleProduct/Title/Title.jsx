@@ -12,7 +12,7 @@ export default function Title({title_fa, title_en, info_feedback, img_brand}) {
     return (
         <>
             <Box className={'title-fa'}>
-                <Box className={'brand-img'}>
+                <Box className={'brand-img d-none d-sm-flex'}>
                     {r_img_brand}
                 </Box>
                 <Box className={'content'}>

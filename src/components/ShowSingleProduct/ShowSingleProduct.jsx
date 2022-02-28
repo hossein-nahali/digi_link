@@ -7,11 +7,14 @@ import Review from "./Review";
 import Title from "./Title";
 import Feedback from "./Feedback";
 import PriceBox from "../Products/ProductBox/PriceBox";
+import Specifications from "./specifications";
+import SingleProductLoading from "../../package/loading/SingleProductLoading";
 
 export default function ShowSingleProduct({id}) {
     const [error, setError] = useState({error: false});
     const [loading, setLoading] = useState(true);
     const [product, setProduct] = useState({});
+
 
     useEffect(() => {
         fetch(`http://localhost:8080/product?id=${id}`)
@@ -23,11 +26,13 @@ export default function ShowSingleProduct({id}) {
                         error: true,
                         errorText: 'محصول پیدا نشد'
                     })
+                } else {
+                    setLoading(false)
+                    setProduct(r[0]);
                 }
-                setLoading(false)
-                setProduct(r[0]);
             })
     }, [id]);
+
 
     // product not found
     if (error.error) {
@@ -35,33 +40,31 @@ export default function ShowSingleProduct({id}) {
     }
 
     return (
+
         <Container className={'show-single-product'}>
-            <Grid container spacing={2} className={'mt-3'}>
-                {
-                    !loading &&
-                    <>
-                        <Grid item xs={4}>
+            {
+                !loading ?
+                    <Grid container spacing={2} className={'mt-3'}>
+                        <Grid item xs={12} lg={4} md={4} sm={4}>
                             {product.img && <ImageSlider imageList={product.img}/>}
                         </Grid>
-                        <Grid item xs={8}>
+                        <Grid item xs={12} lg={8} md={8} sm={8}>
                             <Box className={'info-box'}>
                                 <Title title_fa={product.title_fa} title_en={product.title_en}
                                        info_feedback={product.brand_breadcrumb} img_brand={product.brand_img}/>
                                 <Feedback data_layer={product.data_layer}/>
-                                {
-                                    product.price &&
-                                    <Box className={'price'}>
-                                        <Typography variant={'h3'}>قیمت :</Typography>
-                                        <PriceBox price={product.price}
-                                                  is_show_default_price={product.is_show_default_price}/>
-                                    </Box>
-                                }
+                                <PriceBox price={product.price}
+                                          is_show_default_price={product.is_show_default_price}
+                                          is_show_title={true}/>
                                 <Review review={product.review}/>
                             </Box>
                         </Grid>
-                    </>
-                }
-            </Grid>
+                        <Grid item xs={12}>
+                            <Specifications specs={product.specifications}/>
+                        </Grid>
+                    </Grid>
+                    : <SingleProductLoading/>
+            }
         </Container>
     )
 }
