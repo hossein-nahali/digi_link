@@ -1,4 +1,4 @@
-For working project you should install json-server with npm
+To work on the project, you must install json-server with npm
 
 ### `npm i json-server`
 
