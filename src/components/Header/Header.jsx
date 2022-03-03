@@ -23,7 +23,7 @@ export default function Header() {
             <Box className={'mobile-menu'}>
                 <Box className={'mobile-nav'}>
                     <Button variant="outlined" color="error" status={'error'} className={'a-menu'}>
-                        <NavLink to="/ProductList">نمایش محصولات ها<CategoryIcon/></NavLink>
+                        <NavLink to="/ProductList">نمایش محصولات<CategoryIcon/></NavLink>
                     </Button>
                     <Button variant="outlined" color="error" status={'error'} className={'a-menu'}>
                         <NavLink to="/">محصول جدید<AddIcon/></NavLink>
