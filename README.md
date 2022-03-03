@@ -6,6 +6,10 @@ After installation
 
 ### `json-server --watch db.json --port 8080` Enter in the terminal
 
+and
+
+Copy <a href="#">this file<a/> to localhost
+
 ### `Screenshots`
 
 <div>
