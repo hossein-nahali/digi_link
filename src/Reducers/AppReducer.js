@@ -1,4 +1,4 @@
-import {SetData} from "../package/SetData";
+import {SetDataInit} from "../package/SetData";
 import {DefaultState} from "./DefaultState";
 
 function AppReducer(prevState, action) {
@@ -6,7 +6,12 @@ function AppReducer(prevState, action) {
     switch (action.type) {
         case "INIT_PRODUCT":
             return {
-                infoProduct: SetData(action.data, action.url)
+                infoProduct: SetDataInit(action.data, action.url)
+            }
+
+        case "INIT_SINGLE_PRODUCT":
+            return {
+                infoProduct: action.data
             }
 
         case "RESET_VALUES":

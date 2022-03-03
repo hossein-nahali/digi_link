@@ -14,7 +14,9 @@ export default function SingleProductLoading(props) {
                     width={'100%'}
                     height={'376'}
                     backgroundColor="#f3f3f3"
-                    foregroundColor="#ecebeb">
+                    foregroundColor="#ecebeb"
+                    {...props}
+                >
                     <rect x="0" y="0" rx="5" ry="5" width="100%" height="376"/>
                 </ContentLoader>
             </Grid>
@@ -24,7 +26,8 @@ export default function SingleProductLoading(props) {
                     width={'100%'}
                     height={'300'}
                     backgroundColor="#f3f3f3"
-                    foregroundColor="#ecebeb">
+                    foregroundColor="#ecebeb"
+                    {...props}>
                     <rect x="0" y="0" rx="5" ry="5" width="52" height="52"/>
                     <rect x="70" y="10" rx="3" ry="3" width="52" height="10"/>
                     <rect x="130" y="10" rx="3" ry="3" width="52" height="10"/>

@@ -398,6 +398,537 @@
       "brand_img": [
         "https://dkstatics-public.digikala.com/digikala-brands/3960.jpg?x-oss-process=image/resize,m_lfit,h_120,w_120/quality,q_80"
       ]
+    },
+    {
+      "id": 7066388,
+      "title_fa": "ظرف سرو دیجی کالا هوم مدل انار",
+      "title_en": "",
+      "url": "https://www.digikala.com/product/dkp-7066388/%d8%b8%d8%b1%d9%81-%d8%b3%d8%b1%d9%88-%d8%af%db%8c%d8%ac%db%8c-%da%a9%d8%a7%d9%84%d8%a7-%d9%87%d9%88%d9%85-%d9%85%d8%af%d9%84-%d8%a7%d9%86%d8%a7%d8%b1/",
+      "price": {
+        "rrp_price": 1699000,
+        "selling_price": 1290000,
+        "discount_percent": 24
+      },
+      "discount": true,
+      "is_show_default_price": false,
+      "img": [
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/765cc514d5ede5b4d47f8a659e3e5c6f46523980_1639995362.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 0
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/424fcf661f298ff9c76b87d88b8d790afc395a51_1639995365.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 1
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/09b814072198911ab8b7cb3d0b053dae9cbbc67e_1640002270.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 2
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/c3fea84d2614285b7e90a2f3b9bfec5682245cb4_1640002272.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 3
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/5c3be7f4b7321c554fb147e9232e76d949c4db87_1640002277.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 4
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/0860fff1318eccb93ed7807de384de0b815f6b1d_1640002280.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 5
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/de41929c6dde132943368cd07e2de98ab64b545a_1640002283.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 6
+        }
+      ],
+      "default_img": "https://dkstatics-public.digikala.com/digikala-products/9157a32647bd40a177fc60867908ccbfbe362de9_1640002275.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+      "is_show_specifications": true,
+      "specifications": [
+        {
+          "title": "مشخصات",
+          "attributes": [
+            {
+              "title": "ابعاد",
+              "values": [
+                "24.5x20x1.5 سانتی‌متر"
+              ]
+            },
+            {
+              "title": "وزن",
+              "values": [
+                "215 گرم"
+              ]
+            },
+            {
+              "title": "تعداد",
+              "values": [
+                "1 قلم"
+              ]
+            },
+            {
+              "title": "جنس",
+              "values": [
+                "چوب "
+              ]
+            },
+            {
+              "title": "نحوه شست‌وشو",
+              "values": [
+                "قابلیت شست‌وشو با دست "
+              ]
+            },
+            {
+              "title": "سطح",
+              "values": [
+                "تخت "
+              ]
+            },
+            {
+              "title": "سایر توضیحات",
+              "values": [
+                "ملزومات شستشو: شست‌وشو فقط با دست ( درصورت نیاز با روغن گیاهی تیمار شود)   \r\nقابل استفاده برای سرو شیرینی، کیک، میوه\r\n- ساخته شده از چوب راش\r\n "
+              ]
+            }
+          ]
+        }
+      ],
+      "data_layer": {
+        "count_star": 3.8,
+        "total_comments": 89,
+        "comments_count": 64,
+        "questions_count": 6
+      },
+      "brand_breadcrumb": [
+        {
+          "title": "دیجی کالا هوم",
+          "url": "https://www.digikala.com/brand-landing/digikala-home/"
+        },
+        {
+          "title": "ظروف سرو و پذیرایی دیجی کالا هوم",
+          "url": "https://www.digikala.com/search/category-servingware/digikala-home/"
+        }
+      ],
+      "brand_img": [
+        "https://dkstatics-public.digikala.com/digikala-brands/5829b465d7125d5fd68845e7a5a1c02397b1b214_1634733938.png?x-oss-process=image/resize,m_lfit,h_120,w_120/quality,q_80"
+      ]
+    },
+    {
+      "id": 6588889,
+      "title_fa": "جاکلیدی پتیکو مدل کلبه کوچک",
+      "title_en": "",
+      "url": "https://www.digikala.com/product/dkp-6588889/%d8%ac%d8%a7%da%a9%d9%84%db%8c%d8%af%db%8c-%d9%be%d8%aa%db%8c%da%a9%d9%88-%d9%85%d8%af%d9%84-%da%a9%d9%84%d8%a8%d9%87-%da%a9%d9%88%da%86%da%a9/",
+      "price": {
+        "rrp_price": 400000,
+        "selling_price": 250000,
+        "discount_percent": 38
+      },
+      "discount": true,
+      "is_show_default_price": false,
+      "img": [
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/5b0a42fcfdb2f26e49ee97db702337324f758cca_1632927129.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 0
+        }
+      ],
+      "default_img": "https://dkstatics-public.digikala.com/digikala-products/61bb1d5c8dc8211bb3e7db4fca203b3858a545c0_1632927123.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+      "is_show_specifications": true,
+      "specifications": [
+        {
+          "title": "مشخصات",
+          "attributes": [
+            {
+              "title": "ابعاد",
+              "values": [
+                "15x3x13 سانتی‌متر"
+              ]
+            },
+            {
+              "title": "وزن",
+              "values": [
+                "100 گرم"
+              ]
+            },
+            {
+              "title": "جنس",
+              "values": [
+                "بالکی "
+              ]
+            },
+            {
+              "title": "تعداد قلاب برای قرار دادن کلید",
+              "values": [
+                "چهار "
+              ]
+            },
+            {
+              "title": "نوع جاکلیدی",
+              "values": [
+                "دیواری "
+              ]
+            }
+          ]
+        }
+      ],
+      "review": [
+        {
+          "title": "جنس",
+          "values": [
+            "بالکی"
+          ]
+        },
+        {
+          "title": "تعداد قلاب برای قرار دادن کلید",
+          "values": [
+            "چهار"
+          ]
+        }
+      ],
+      "data_layer": {
+        "count_star": 4.5,
+        "total_comments": 2,
+        "comments_count": 1,
+        "questions_count": 0
+      },
+      "brand_breadcrumb": [
+        {
+          "title": "متفرقه",
+          "url": "https://www.digikala.com/brand/miscellaneous/"
+        }
+      ],
+      "brand_img": [
+        "https://dkstatics-public.digikala.com/digikala-brands/d37a7e939b804659cfc1e6d88092a1b8ea8132d4_1603699076.png?x-oss-process=image/resize,m_lfit,h_120,w_120/quality,q_80"
+      ]
+    },
+    {
+      "id": 7529952,
+      "title_fa": "تی شرت دخترانه کیکی رایکی مدل KBB02818-008",
+      "title_en": "Kiki Riki KBB02818-008 T-Shirt For Girls",
+      "url": "https://www.digikala.com/product/dkp-7529952/%d8%aa%db%8c-%d8%b4%d8%b1%d8%aa-%d8%af%d8%ae%d8%aa%d8%b1%d8%a7%d9%86%d9%87-%da%a9%db%8c%da%a9%db%8c-%d8%b1%d8%a7%db%8c%da%a9%db%8c-%d9%85%d8%af%d9%84-kbb02818-008/",
+      "price": {
+        "rrp_price": 3900000,
+        "selling_price": 1120000,
+        "discount_percent": 71
+      },
+      "discount": true,
+      "is_show_default_price": false,
+      "img": [
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/357b5378b9d8f7405c8a6ab64d959f8b28b8f0b5_1641963315.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 0
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/023235ba9ff8e04dfcfed82a2c3efa75f6145c1a_1641963304.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 1
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/8135c424f54099b1ebde0044fab0c59e7e2d091d_1641963308.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 2
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/a962e5550c335699656209891b8effb88d07882e_1641963312.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 3
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/8ab305759ab040fa8a4d3eed7c48332effac68c0_1642503691.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 4
+        }
+      ],
+      "default_img": "https://dkstatics-public.digikala.com/digikala-products/7e43045c8e3cffd2dbdf962569c43310010d3c0f_1641963302.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+      "is_show_specifications": true,
+      "specifications": [
+        {
+          "title": "مشخصات",
+          "attributes": [
+            {
+              "title": "جنس",
+              "values": [
+                "الیاف نخی "
+              ]
+            },
+            {
+              "title": "یقه",
+              "values": [
+                "گرد "
+              ]
+            },
+            {
+              "title": "آستین",
+              "values": [
+                "کوتاه "
+              ]
+            },
+            {
+              "title": "قد",
+              "values": [
+                "روی باسن "
+              ]
+            },
+            {
+              "title": "طرح",
+              "values": [
+                "طرح‌دار "
+              ]
+            },
+            {
+              "title": "مورد استفاده",
+              "values": [
+                "روزمره "
+              ]
+            },
+            {
+              "title": "توضیحات جنس",
+              "values": [
+                "تهیه شده از الیاف نخی "
+              ]
+            },
+            {
+              "title": "نگهداری",
+              "values": [
+                "با ماشین لباسشویی و در دمای حداکثر 30 درجه سانتی گراد شستشو شود\r\nبا دمای کم اتوکشی شود\r\nخشکشویی نشود\r\nاز خشک کن استفاده نشود\r\nاز سفید کننده استفاده نشود "
+              ]
+            },
+            {
+              "title": "کد کالای محصول",
+              "values": [
+                "KBB02818-GREEN "
+              ]
+            },
+            {
+              "title": "کشور مبدا برند",
+              "values": [
+                "ایران "
+              ]
+            },
+            {
+              "title": "کشور تولید کننده",
+              "values": [
+                "ایران "
+              ]
+            }
+          ]
+        }
+      ],
+      "review": [
+        {
+          "title": "یقه",
+          "values": [
+            "گرد"
+          ]
+        },
+        {
+          "title": "آستین",
+          "values": [
+            "کوتاه"
+          ]
+        },
+        {
+          "title": "قد",
+          "values": [
+            "روی باسن"
+          ]
+        },
+        {
+          "title": "طرح",
+          "values": [
+            "طرح‌دار"
+          ]
+        },
+        {
+          "title": "مورد استفاده",
+          "values": [
+            "روزمره"
+          ]
+        },
+        {
+          "title": "کشور مبدا برند",
+          "values": [
+            "ایران"
+          ]
+        },
+        {
+          "title": "کشور تولید کننده",
+          "values": [
+            "ایران"
+          ]
+        }
+      ],
+      "data_layer": {
+        "count_star": 0,
+        "total_comments": 0,
+        "comments_count": 0,
+        "questions_count": 0
+      },
+      "brand_breadcrumb": [
+        {
+          "title": "کیکی رایکی",
+          "url": "https://www.digikala.com/brand-landing/kikiraiki/"
+        },
+        {
+          "title": "تی شرت و پولوشرت دخترانه کیکی رایکی",
+          "url": "https://www.digikala.com/search/category-girls-tee-shirts-polos/kikiraiki/"
+        }
+      ],
+      "brand_img": [
+        "https://dkstatics-public.digikala.com/digikala-brands/02ffbe428c114595e445e53fa36d59860468bf88_1594023772.jpg?x-oss-process=image/resize,m_lfit,h_120,w_120/quality,q_80"
+      ]
+    },
+    {
+      "id": 1951290,
+      "title_fa": "برس پاک‌سازی آمرکه مدل MFI",
+      "title_en": "Amerke MFI cleansing brush",
+      "url": "https://www.digikala.com/product/dkp-1951290/%d8%a8%d8%b1%d8%b3-%d9%be%d8%a7%da%a9%d8%b3%d8%a7%d8%b2%db%8c-%d8%a2%d9%85%d8%b1%da%a9%d9%87-%d9%85%d8%af%d9%84-mfi/",
+      "price": {
+        "rrp_price": 9600000,
+        "selling_price": 9600000,
+        "discount_percent": 0
+      },
+      "discount": false,
+      "is_show_default_price": false,
+      "img": [
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/112971363.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 0
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/112971374.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 1
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/112971381.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 2
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/112971392.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 3
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/112971409.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 4
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/112971432.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 5
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/53e69fb5a67e09490919db813ffad48e8cb3bde9_1595761300.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 6
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/0849fdf63bf78fad4174bc82c20290cec7c2a754_1595761303.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 7
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/c50ac0535e9de804677532b9fe6d31d896885004_1595761304.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 8
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/5c89780c185b571e9214ab8bb029e20adaad406f_1595761305.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 9
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/11c072af220ac89965cbc814bc863e5f5e693fd2_1595761306.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 10
+        },
+        {
+          "src": "https://dkstatics-public.digikala.com/digikala-products/7fa30e540b957b2323ec6f4a50bcff195e3c4afa_1595764870.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+          "is_show": true,
+          "id": 11
+        }
+      ],
+      "default_img": "https://dkstatics-public.digikala.com/digikala-products/112969119.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+      "is_show_specifications": true,
+      "specifications": [
+        {
+          "title": "مشخصات",
+          "attributes": [
+            {
+              "title": "منبع انرژی",
+              "values": [
+                "باتری قابل شارژ "
+              ]
+            },
+            {
+              "title": "اقلام همراه",
+              "values": [
+                "دفترچه راهنما فارسی\r\nکابل شارژ "
+              ]
+            },
+            {
+              "title": "تعداد سری",
+              "values": [
+                "یک عدد "
+              ]
+            },
+            {
+              "title": "قابلیت‌های ابزار",
+              "values": [
+                "طراحی ارگونومیک "
+              ]
+            },
+            {
+              "title": "امکانات لوازم اصلاح",
+              "values": [
+                "سری قابل شست‌وشو "
+              ]
+            },
+            {
+              "title": "قابلیت‌های ابزار اصلاح",
+              "values": [
+                "استفاده به صورت خشک و مرطوب "
+              ]
+            },
+            {
+              "title": "سایر توضیحات",
+              "values": [
+                "دارای تایمر هوشمند دو دقیقه ای\r\nقابلیت تنظیم روی 15 درجه شدت مختلف\r\nدارای زبانه های سیلیکونی آنتی باکتریال\r\nدفترچه راهنما فارسی جهت راهنمایی در استفاده \r\nقابلیت شارژ مجدد\r\nبدون نیاز به تعویض سری\r\nمجهز به سیستم پاکسازی عمیق پوست "
+              ]
+            }
+          ]
+        }
+      ],
+      "data_layer": {
+        "count_star": 4,
+        "total_comments": 159,
+        "comments_count": 112,
+        "questions_count": 5
+      },
+      "brand_breadcrumb": [
+        {
+          "title": "آمرکه",
+          "url": "https://www.digikala.com/brand/amerke/"
+        },
+        {
+          "title": "ابزار مراقبت از پوست آمرکه",
+          "url": "https://www.digikala.com/search/category-skin-care-accessories/amerke/"
+        }
+      ],
+      "brand_img": [
+        "https://dkstatics-public.digikala.com/digikala-brands/5354.png?x-oss-process=image/resize,m_lfit,h_120,w_120/quality,q_80"
+      ]
     }
   ]
 }

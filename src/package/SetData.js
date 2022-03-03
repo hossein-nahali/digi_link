@@ -1,4 +1,4 @@
-export const SetData = (data, url) => {
+export const SetDataInit = (data, url) => {
     const {
         default_variant,
         images,

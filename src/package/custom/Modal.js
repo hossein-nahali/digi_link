@@ -53,14 +53,10 @@ export const CModal = ({closeModal, modal, redirect, text, status = ''}) => {
                     }}>
                         <Button variant="contained" color="success" onClick={redirect.redirectProductList}
                                 sx={{marginLeft: '15px'}}>
-                            <NavLink to='/ProductList' style={{
-                                color: 'inherit',
-                            }}> نمایش محصولات</NavLink>
+                            <NavLink to='/ProductList' style={{color: 'inherit',}}> نمایش محصولات</NavLink>
                         </Button>
                         <Button variant="outlined" color="error" onClick={redirect.redirectHome} status={'error'}>
-                            <NavLink to='/' style={{
-                                color: 'inherit',
-                            }}>افزودن محصول جدید</NavLink>
+                            <NavLink to='/' style={{color: 'inherit',}}>افزودن محصول جدید</NavLink>
                         </Button>
                     </Box>
                 </Box>

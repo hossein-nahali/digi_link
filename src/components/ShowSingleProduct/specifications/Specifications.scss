@@ -1,4 +1,4 @@
-.specifications {
+.specifications-single-product {
   border-top: 4px solid #f0f0f1;
   width: 100%;
   margin-top: 25px;
@@ -21,6 +21,12 @@
     .parent-table {
       display: flex;
       border: none;
+
+      &:last-child {
+        .attrs {
+          border: none;
+        }
+      }
 
       .title {
         min-width: 200px;
@@ -48,6 +54,21 @@
           line-height: 30px;
         }
       }
+    }
+  }
+
+  .expanded {
+    font-size: 14px;
+    font-weight: 500;
+    color: #19bfd3;
+    cursor: pointer;
+    user-select: none;
+    width: fit-content;
+
+    > svg {
+      transform: rotate(90deg);
+      width: 21px;
+      height: 21px;
     }
   }
 }

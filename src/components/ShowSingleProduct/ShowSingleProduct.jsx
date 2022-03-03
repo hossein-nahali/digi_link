@@ -1,4 +1,5 @@
-import React, {useEffect, useState} from "react";
+import React, {useContext, useEffect, useReducer, useState} from "react";
+import {useLocation} from "react-router";
 import ProductNotFound from "../ProductNotFound";
 import {Box, Container, Grid, Typography} from "@mui/material";
 import ImageSlider from "./ImageSlider";
@@ -8,13 +9,14 @@ import Title from "./Title";
 import Feedback from "./Feedback";
 import PriceBox from "../Products/ProductBox/PriceBox";
 import Specifications from "./specifications";
+
 import SingleProductLoading from "../../package/loading/SingleProductLoading";
+import contexts from "../../context/context";
 
 export default function ShowSingleProduct({id}) {
+    const context = useContext(contexts);
     const [error, setError] = useState({error: false});
     const [loading, setLoading] = useState(true);
-    const [product, setProduct] = useState({});
-
 
     useEffect(() => {
         fetch(`http://localhost:8080/product?id=${id}`)
@@ -26,10 +28,9 @@ export default function ShowSingleProduct({id}) {
                         error: true,
                         errorText: 'محصول پیدا نشد'
                     })
-                } else {
-                    setLoading(false)
-                    setProduct(r[0]);
                 }
+                setLoading(false)
+                context.dispatch({type: 'INIT_SINGLE_PRODUCT', data: r[0]})
             })
     }, [id]);
 
@@ -40,27 +41,25 @@ export default function ShowSingleProduct({id}) {
     }
 
     return (
-
         <Container className={'show-single-product'}>
             {
                 !loading ?
                     <Grid container spacing={2} className={'mt-3'}>
                         <Grid item xs={12} lg={4} md={4} sm={4}>
-                            {product.img && <ImageSlider imageList={product.img}/>}
+                            <ImageSlider/>
                         </Grid>
                         <Grid item xs={12} lg={8} md={8} sm={8}>
                             <Box className={'info-box'}>
-                                <Title title_fa={product.title_fa} title_en={product.title_en}
-                                       info_feedback={product.brand_breadcrumb} img_brand={product.brand_img}/>
-                                <Feedback data_layer={product.data_layer}/>
-                                <PriceBox price={product.price}
-                                          is_show_default_price={product.is_show_default_price}
+                                <Title/>
+                                <Feedback/>
+                                <PriceBox price={context.state.infoProduct.price}
+                                          is_show_default_price={context.state.infoProduct.is_show_default_price}
                                           is_show_title={true}/>
-                                <Review review={product.review}/>
+                                <Review/>
                             </Box>
                         </Grid>
                         <Grid item xs={12}>
-                            <Specifications specs={product.specifications}/>
+                            <Specifications/>
                         </Grid>
                     </Grid>
                     : <SingleProductLoading/>

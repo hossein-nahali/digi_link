@@ -2,7 +2,7 @@ import React, {useContext, useState} from "react";
 import contexts from "../../context/context";
 import {Container} from "@mui/material";
 import './InfoProduct.scss'
-import Image from "../Image";
+import Image from "./Image";
 import Price from "../Price";
 import Specs from "./Specs";
 import LoadingButton from '@mui/lab/LoadingButton';

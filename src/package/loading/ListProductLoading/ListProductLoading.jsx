@@ -13,7 +13,9 @@ export default function ListProductLoading(props) {
                     rtl={true}
                     viewBox="0 0 276 350"
                     backgroundColor="#f3f3f3"
-                    foregroundColor="#ecebeb">
+                    foregroundColor="#ecebeb"
+                    {...props}
+                >
                     <rect x="0" y="-90" rx="0" ry="0" width="6" height="430"/>
                     <rect x="-90" y="0" rx="0" ry="0" width="370" height="6"/>
                     <rect x="270" y="-90" rx="0" ry="0" width="6" height="430"/>
@@ -29,7 +31,9 @@ export default function ListProductLoading(props) {
                     rtl={true}
                     viewBox="0 0 276 350"
                     backgroundColor="#f3f3f3"
-                    foregroundColor="#ecebeb">
+                    foregroundColor="#ecebeb"
+                    {...props}
+                >
                     <rect x="0" y="-90" rx="0" ry="0" width="6" height="430"/>
                     <rect x="-90" y="0" rx="0" ry="0" width="370" height="6"/>
                     <rect x="270" y="-90" rx="0" ry="0" width="6" height="430"/>
