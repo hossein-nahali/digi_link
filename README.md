@@ -8,7 +8,7 @@ After installation
 
 and
 
-Copy <a href="#">this file<a/> to localhost
+download and copy <a href="https://github.com/hossein-nahali/digi_link/tree/master/api_digi_link">this file<a/> to localhost
 
 ### `Screenshots`
 
