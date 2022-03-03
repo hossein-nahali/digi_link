@@ -9,7 +9,7 @@ export default function Title() {
     const direction = context.info_feedback && context.info_feedback.map((item) => <Typography
         key={item.url}> {item.title}</Typography>)
 
-    const r_img_brand = context.img_brand && context.img_brand.map(index => <img key={index} src={index}
+    const r_img_brand = context.brand_img && context.brand_img.map(index => <img key={index} src={index}
                                                                                  alt="img brand"/>)
 
     return (
